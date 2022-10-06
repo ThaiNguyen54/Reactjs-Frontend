@@ -2,6 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/kube.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/custom.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      .intro h1:before {
+        /* Edit this with your name or anything else */
+        content: ' THAI ';
+      }
+    </style>
+    <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -39,5 +54,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/js/typed.min.js"></script>
+    <script src="%PUBLIC_URL%/js/kube.min.js"></script>
+    <script src="%PUBLIC_URL%/js/site.js"></script>
+    <script>
+      function newTyped(){}$(function(){$("#typed").typed({
+        // Change to edit type effect
+        strings: ["far northern sky", "your galaxy", "everywhere"],
+
+        typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
   </body>
 </html>
