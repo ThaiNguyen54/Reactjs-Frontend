@@ -7,6 +7,7 @@ import AwardAndAchievements from "./components/awardandachievements";
 import Quote from "./components/quote";
 import TechnicalSkills from "./components/technicalskills";
 import WorkExperience from "./components/workexperience";
+import FavoriteSeries from "./components/favoriteseries";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <WorkExperience></WorkExperience>
         <AwardAndAchievements></AwardAndAchievements>
         <TechnicalSkills></TechnicalSkills>
+        <FavoriteSeries></FavoriteSeries>
         <Quote></Quote>
     </div>
   );

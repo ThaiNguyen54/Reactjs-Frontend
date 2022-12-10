@@ -14,6 +14,7 @@ export default class NavBar extends Component{
                                 <li><a href="#experiences">Experiences</a></li>
                                 <li><a href="#achievements">Achievements</a></li>
                                 <li><a href="#skills">Skills</a></li>
+                                <li><a href="#series">My favorite series</a></li>
                             </ul>
                         </nav>
                     </header>
